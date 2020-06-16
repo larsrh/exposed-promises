@@ -1,0 +1,7 @@
+src/
+dist/test
+.github
+*.config.js
+tsconfig.*
+*.tgz
+.idea

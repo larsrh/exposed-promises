@@ -1,0 +1,29 @@
+{
+  "name": "exposed-promises",
+  "version": "0.0.0",
+  "description": "Tiny library for creating promises that can be resolved outside the Promise constructor",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch --incremental",
+    "test": "jest",
+    "build": "rm -rf tsconfig.tsbuildinfo dist && tsc --emitDeclarationOnly && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsrh/exposed-promises.git"
+  },
+  "author": "Lars Hupel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larsrh/exposed-promises/issues"
+  },
+  "homepage": "https://github.com/larsrh/exposed-promises#readme",
+  "devDependencies": {
+    "@rollup/plugin-sucrase": "^3.0.2",
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "rollup": "^2.16.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  }
+}
