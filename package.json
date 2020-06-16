@@ -1,6 +1,6 @@
 {
   "name": "exposed-promises",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tiny library for creating promises that can be resolved outside the Promise constructor",
   "main": "dist/index.js",
   "scripts": {
